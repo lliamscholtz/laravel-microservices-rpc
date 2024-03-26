@@ -23,4 +23,10 @@ class Product extends Model
         'status',
         'image',
     ];
+
+    protected $hidden = [
+        'id',
+        'created_at',
+        'updated_at',
+    ];
 }

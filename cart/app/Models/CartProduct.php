@@ -10,4 +10,10 @@ class CartProduct extends Model
     use HasFactory;
 
     protected $fillable = ['cart_id', 'product_sku', 'quantity'];
+
+    protected $hidden = [
+        'cart_id',
+        'created_at',
+        'updated_at',
+    ];
 }

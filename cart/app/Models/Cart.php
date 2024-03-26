@@ -11,6 +11,11 @@ class Cart extends Model
 
     protected $fillable = ['user_id'];
 
+    protected $hidden = [
+        'created_at',
+        'updated_at',
+    ];
+
     public function products()
     {
         return $this->hasMany(CartProduct::class);
