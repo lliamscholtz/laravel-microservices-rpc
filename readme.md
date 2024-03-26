@@ -25,3 +25,12 @@ curl http://127.0.0.1:8000/http | jq
 ```
 
 ![HTTP](screenshots/http.png?raw=true 'HTTP')
+
+## [jRPC](https://sajya.github.io/docs/quickstart/)
+
+![HTTP](screenshots/jrpc.png?raw=true 'HTTP')
+
+```
+curl http://127.0.0.1:8000/jrpc | jq
+curl http://127.0.0.1:8000/jrpc-batch | jq
+```
