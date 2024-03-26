@@ -17,3 +17,11 @@ Simply run `php artisan migrate:fresh --seed` within each micropservice to setup
 ## Running the Application
 
 To run the application, navigate into each microservice directory (e.g., cart or products) and run `php artisan serve`. This will start the server for that microservice. You can then access the API endpoints by navigating to http://localhost:8000/.
+
+## HTTP
+
+```
+curl http://127.0.0.1:8000/http | jq
+```
+
+![HTTP](screenshots/http.png?raw=true 'HTTP')
